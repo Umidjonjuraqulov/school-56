@@ -54,7 +54,7 @@ st.write(
 # Rasmlar uchun bo'lim (agar mavjud bo'lsa)
 st.subheader("Rasm:")
 st.image(
-    "images/umid_image.png", 
+    "umid_image.png", 
     caption="Umidjon Juraqulov",
     width=300
 )
