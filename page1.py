@@ -1,7 +1,7 @@
 import streamlit as st 
 st.snow()
 col1, col2 = st.columns((3, 7))
-col1.image("images/school_56.png")
+col1.image("school_56.png")
 col2.title("INFORMATIKA VA AXBOROT TEXNOLOGIYALARIGA IXTISOSLASHTIRILGAN 56-MAKTAB")
 st.write("")
 st.markdown("***")
