@@ -1,0 +1,17 @@
+import streamlit as st 
+st.snow()
+col1, col2 = st.columns((3, 7))
+col1.image("images/school_56.png")
+col2.title("INFORMATIKA VA AXBOROT TEXNOLOGIYALARIGA IXTISOSLASHTIRILGAN 56-MAKTAB")
+st.write("")
+st.markdown("***")
+st.write("")
+#st.image("images/school.jpg")
+with st.container():
+    st.markdown("***")
+    st.header("Maktabimiz haqida")
+    st.subheader("O'quvchilar soni: **456**")
+    st.subheader("O'qituvchilar jami soni: **56**")
+    st.subheader("1-Toifali o'qituvchilar soni: **12**")
+    st.subheader("Jami bitiruvchilar soni: **2786**")
+    st.markdown("***")
