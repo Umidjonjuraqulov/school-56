@@ -1,8 +1,9 @@
 import streamlit as st 
-st.snow()
-
 import pandas as pd
 import matplotlib.pyplot as plt
+
+
+st.snow()
 
 # Sahifa sarlavhasi
 st.title("Statistika Sahifasi")
