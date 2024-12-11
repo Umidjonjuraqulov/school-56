@@ -24,17 +24,17 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown("### Ishonch")
     st.write("Bizning mijozlarimiz bizga har doim ishonadi.")
-    st.image("images/ishonch.png", width=200)
+    st.image("ishonch.png", width=200)
 
 with col2:
     st.markdown("### Sifat")
     st.write("Biz faqat eng yuqori sifatni taqdim etamiz.")
-    st.image("images/sifat.png", width=200)  # Tasvir
+    st.image("sifat.png", width=200)  # Tasvir
 
 with col3:
     st.markdown("### Innovatsiya")
     st.write("Yangi texnologiyalarni qo‘llash orqali rivojlanamiz.")
-    st.image("images/innovatsiya.png", width=200)  # Tasvir
+    st.image("innovatsiya.png", width=200)  # Tasvir
 
 # 3-bo'lim: Qo'shimcha Afzalliklar
 st.divider()
